@@ -23,18 +23,6 @@ public class Exit
 
     /**
      * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public void sampleMethod(int y)
-    {
-        // put your code here
-        return ;
-    }
-    
-    /**
-     * An example of a method - replace this comment with your own
      *
      * @param  y   a sample parameter for a method
      * @return     the sum of x and y
@@ -44,7 +32,7 @@ public class Exit
         // put your code here
         return direction;
     }
-
+
     /**
      * An example of a method - replace this comment with your own
      *

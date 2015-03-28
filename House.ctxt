@@ -2,4 +2,10 @@
 comment0.params=
 comment0.target=House()
 comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ House\r\n
-numComments=1
+comment1.params=id\ dirt\ name
+comment1.target=void\ addRoom(int,\ boolean,\ java.lang.String)
+comment1.text=\r\n\ Add\ a\ room\ to\ the\ house.\r\n\ I\ don't\ know\ quite\ what\ to\ do\ here\:\ obviously\ this\ just\ calls\ the\ Room\ constructor,\ but\r\n\ do\ i\ feed\ it\ the\ room\ object.\r\n
+comment2.params=roomID
+comment2.target=Room\ getRoom(int)
+comment2.text=\r\n\ Returns\ a\ specific\ room\ of\ the\ house\ for\ inspection,\ e.g.\ for\ agent\ to\ perceive\ its\ location\r\n\r\n\ @param\ \ roomID\ \ \ ID\ of\ desired\ room\r\n\ @return\ \ \ \ \ \ \ \ \ \ a\ Room\ object\r\n
+numComments=3

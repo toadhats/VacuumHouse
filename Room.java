@@ -13,7 +13,6 @@ public class Room
     private ArrayList<Exit> exits;
     private String roomName;
     
-
     /**
      * Constructor for objects of class Room
      */
@@ -51,8 +50,10 @@ public class Room
         isDirty = dirt;
         roomName = name;
     }
+    
     /**
-     * An example of a method - replace this comment with your own
+     * Returns the ID of a room. Not sure how this will be used, since IDs are the only way we know how to refer
+     * to a room.
      * 
      * @param  y   a sample parameter for a method
      * @return     the sum of x and y 
@@ -62,6 +63,19 @@ public class Room
         // put your code here
         return roomID;
     }
+    
+    /**
+     * An example of a method - replace this comment with your own
+     *
+     * @param  y   a sample parameter for a method
+     * @return     the sum of x and y
+     */
+    public String getName()
+    {
+        // put your code here
+        return roomName;
+    }
+
     
     /**
      * An example of a method - replace this comment with your own
@@ -120,6 +134,16 @@ public class Room
         return isDirty;
     }
 
-    
+    /**
+     * An example of a method - replace this comment with your own
+     *
+     * @param  y   a sample parameter for a method
+     * @return     the sum of x and y
+     */
+    public void setDirtStatus(boolean status)
+    {
+        isDirty = status;
+    }
+
     
 }
